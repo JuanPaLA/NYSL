@@ -1,66 +1,85 @@
-header{
-color:white;
-background-image: url("img/design1_image1.jpg");
-height: 200px;
-background-repeat: no-repeat;
-background-size: cover;
+header {
+  color: white;
+  background-image: url("img/design1_image1.jpg");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
-#logo{
+
+#logo {
   position: absolute;
-  top:31%;
+  top: -30%;
   right: 2%;
   width: 100px;
   height: 100px;
+  bottom: 100px;
 }
-.subheader{
+
+.subheader {
+  position: relative;
   text-align: center;
-  color:white;
+  color: white;
   background-color: black;
   /* margin:0; */
 }
-.subheader h1{
-  margin:0;
-  padding:9px 0;
+
+.subheader h1 {
+  margin: 0;
+  padding: 9px 0;
 }
-.box-conteiner{
+
+.box-conteiner {
   overflow: hidden;
 }
-aside{
-  float:left;
+
+aside {
+  float: left;
   width: 25%;
   min-width: 110px;
 }
-table{
+
+table {
   line-height: 30px;
   width: 100%;
 }
-td[rowspan="2"]{
+
+td[rowspan="2"] {
   text-align: center;
-}th{
+}
+
+th {
   text-align: left;
 }
-table td,th{
+
+table td,
+th {
   margin-left: 45px;
   padding: 10px;
 }
-input[type="text"],input[type="date"]{
+
+input[type="text"],
+input[type="date"] {
   background: none;
   border: none;
   border-bottom: 1px solid black;
 }
-form{
+
+form {
   line-height: 38px;
 }
-ul,ol{
+
+ul,
+ol {
   line-height: 34px;
 }
-nav a{
+
+nav a {
   opacity: 0.95;
-  margin:auto;
+  margin: auto;
   display: block;
-  padding:10px;
-  margin:12px;
+  padding: 10px;
+  margin: 12px;
   max-width: 120px;
   border-radius: 15px;
 
@@ -68,7 +87,8 @@ nav a{
   text-decoration: none;
   background-color: #dad0f5;
 }
-section{
+
+section {
   float: left;
   width: 75%;
 
